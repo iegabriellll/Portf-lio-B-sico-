@@ -1,46 +1,157 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Dev | Full Stack & Discord Bots</title>
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/yourfontawesomecode.js" crossorigin="anonymous"></script>
+    </head>
+
 <body>
-    <header>
-        <h1>Lucas Dev</h1>
-        <p>Full Stack Developer & Discord Bot Specialist</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Lucas Dev</h1>
+            <p class="subtitle">Full Stack Developer & Discord Bot Specialist</p>
+            <a href="#projects" class="cta-button">Ver Projetos</a>
+        </div>
+        <div class="hero-social">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
     </header>
 
-    <section class="about">
-        <h2>Sobre Mim</h2>
-        <p>Sou desenvolvedor <strong>Full Stack</strong> com experiência em criação de <strong>sites</strong> e <strong>bots para Discord</strong>. Trabalho como <strong>freelancer</strong>, entregando soluções modernas e eficientes focadas em performance e experiência do usuário.</p>
+    <section id="about" class="about section">
+        <div class="section-title">
+            <h2>Sobre Mim</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    Sou um desenvolvedor <strong>Full Stack</strong> com mais de [X] anos de experiência, apaixonado por criar
+                    soluções web robustas e escaláveis, além de bots para Discord altamente funcionais.
+                    Minha expertise abrange desde o planejamento e design até a implementação e manutenção de projetos.
+                </p>
+                <p>
+                    Trabalho como <strong>freelancer</strong> e também colaboro com equipes, sempre buscando entregar resultados
+                    que superem as expectativas dos clientes. Tenho um forte compromisso com a qualidade do código,
+                    performance e experiência do usuário.
+                </p>
+            </div>
+            <div class="about-skills">
+                <h3>Habilidades Principais</h3>
+                <ul>
+                    <li>JavaScript (ES6+)</li>
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Bancos de Dados Relacionais e Não Relacionais</li>
+                    </ul>
+            </div>
+        </div>
     </section>
 
-    <section class="services">
-        <h2>Serviços</h2>
-        <ul>
-            <li>Desenvolvimento de sites responsivos</li>
-            <li>Criação de bots personalizados para Discord</li>
-            <li>Integração de sistemas web com APIs</li>
-            <li>Desenvolvimento de painéis administrativos</li>
-            <li>Automatização de processos</li>
-            <li>Suporte e manutenção de projetos</li>
-        </ul>
+    <section id="services" class="services section">
+        <div class="section-title">
+            <h2>Serviços</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Desenvolvimento Web Full Stack</h3>
+                <p>
+                    Criação de aplicações web completas, desde o front-end interativo até o back-end robusto e escalável.
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-discord"></i>
+                <h3>Desenvolvimento de Bots para Discord</h3>
+                <p>
+                    Desenvolvimento de bots personalizados para Discord, com funcionalidades avançadas e integrações
+                    complexas.
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-rocket"></i>
+                <h3>Otimização de Performance</h3>
+                <p>
+                    Otimização de aplicações web existentes para garantir carregamento rápido, alta performance e excelente
+                    SEO.
+                </p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-database"></i>
+                <h3>Arquitetura de Sistemas</h3>
+                <p>
+                    Planejamento e desenvolvimento de arquiteturas de sistemas escaláveis e de alta disponibilidade.
+                </p>
+            </div>
+            </div>
     </section>
 
-    <section class="technologies">
-        <h2>Tecnologias</h2>
-        <ul>
-            <li><strong>Front-end:</strong> HTML5, CSS3, JavaScript, React.js, Vite, TailwindCSS</li>
-            <li><strong>Back-end:</strong> Node.js, Express.js, TypeScript</li>
-            <li><strong>Banco de Dados:</strong> MongoDB, SQLite, MySQL</li>
-            <li><strong>Outros:</strong> Webhooks, API REST, Discord API, Git, Figma</li>
-        </ul>
+    <section id="projects" class="projects section">
+        <div class="section-title">
+            <h2>Projetos</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./project1.jpg" alt="Project 1">
+                <div class="project-info">
+                    <h3>Nome do Projeto 1</h3>
+                    <p>
+                        Descrição breve do projeto e tecnologias utilizadas. Destaque os principais desafios e soluções.
+                    </p>
+                    <a href="#" target="_blank">Ver Detalhes</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./project2.jpg" alt="Project 2">
+                <div class="project-info">
+                    <h3>Nome do Projeto 2</h3>
+                    <p>
+                        Descrição breve do projeto e tecnologias utilizadas. Destaque os principais desafios e soluções.
+                    </p>
+                    <a href="#" target="_blank">Ver Detalhes</a>
+                </div>
+            </div>
+            </div>
     </section>
 
-    <footer>
-        <p>© 2025 Lucas Dev. Todos os direitos reservados.</p>
+    <section id="contact" class="contact section">
+        <div class="section-title">
+            <h2>Contato</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-form">
+            <p>
+                Estou sempre aberto a novas oportunidades e desafios. Entre em contato para discutirmos seu projeto ou
+                oportunidade.
+            </p>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" placeholder="Sua Mensagem" rows="5" required></textarea>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Lucas Dev. Todos os direitos reservados.</p>
+            <div class="footer-social">
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>>
+        </div>
     </footer>
 </body>
+
 </html>
