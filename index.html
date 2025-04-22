@@ -1,113 +1,46 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lucas Dev | Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Dev | Full Stack & Discord Bots</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1 class="fade-in">Lucas Gabriell Fernandes Barbiero</h1>
-    <h2 class="fade-in-delay">Conhecido como Lucas Dev</h2>
-    <p class="fade-in-late">Desenvolvedor Full Stack — 19 anos</p>
-    
-    <div class="sobre fade-in-later">
-      <h3>Sobre Mim</h3>
-      <p>Sou apaixonado por tecnologia, desenvolvimento web e criação de bots para Discord, FiveM, Roblox, além de interfaces NUI para servidores. Busco sempre entregar projetos modernos, responsivos e de alta qualidade, trabalhando como freelancer para todo o Brasil.</p>
-    </div>
+    <header>
+        <h1>Lucas Dev</h1>
+        <p>Full Stack Developer & Discord Bot Specialist</p>
+    </header>
 
-    <div class="exemplos fade-in-later">
-      <h3>Exemplos de Projetos</h3>
+    <section class="about">
+        <h2>Sobre Mim</h2>
+        <p>Sou desenvolvedor <strong>Full Stack</strong> com experiência em criação de <strong>sites</strong> e <strong>bots para Discord</strong>. Trabalho como <strong>freelancer</strong>, entregando soluções modernas e eficientes focadas em performance e experiência do usuário.</p>
+    </section>
 
-      <!-- Bots de Discord -->
-      <div class="exemplo">
-        <h4>Bot de Discord para RP - Sistema de Pontuação</h4>
-        <p>Bot para sistemas de pontuação em campeonatos de RP, permitindo aos administradores registrar e visualizar pontos em tempo real, com comandos para interações e pontuações automáticas.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> Node.js, Discord.js, MongoDB</p>
-        </div>
-      </div>
+    <section class="services">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Desenvolvimento de sites responsivos</li>
+            <li>Criação de bots personalizados para Discord</li>
+            <li>Integração de sistemas web com APIs</li>
+            <li>Desenvolvimento de painéis administrativos</li>
+            <li>Automatização de processos</li>
+            <li>Suporte e manutenção de projetos</li>
+        </ul>
+    </section>
 
-      <div class="exemplo">
-        <h4>Bot de Discord para Automação de Eventos</h4>
-        <p>Bot projetado para automatizar sorteios, sorteios de prêmios e eventos dentro de servidores de Discord, com interação de usuários e gerenciamento de resultados de forma simples.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> Node.js, Discord.js, SQLite</p>
-        </div>
-      </div>
+    <section class="technologies">
+        <h2>Tecnologias</h2>
+        <ul>
+            <li><strong>Front-end:</strong> HTML5, CSS3, JavaScript, React.js, Vite, TailwindCSS</li>
+            <li><strong>Back-end:</strong> Node.js, Express.js, TypeScript</li>
+            <li><strong>Banco de Dados:</strong> MongoDB, SQLite, MySQL</li>
+            <li><strong>Outros:</strong> Webhooks, API REST, Discord API, Git, Figma</li>
+        </ul>
+    </section>
 
-      <div class="exemplo">
-        <h4>Bot de Discord para FiveM - Administração de Servidor</h4>
-        <p>Bot criado para FiveM, com comandos para gerenciar jogadores, banir, kickar, verificar estatísticas de jogo, e enviar relatórios diretamente para os administradores do servidor de FiveM.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> Node.js, Discord.js, MySQL, API de FiveM</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>Bot de Discord para Gestão de Equipes em Campeonatos</h4>
-        <p>Bot para gerenciar equipes em campeonatos de esportes ou RP, criando equipes automaticamente, sorteando partidas, controlando horários de jogo e pontuação, e dando resultados ao vivo.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> Node.js, Discord.js, PostgreSQL</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>Bot de Discord para Robux - Gestão de Premiações</h4>
-        <p>Bot para servidores de Roblox que facilita a gestão de premiações em Robux para jogadores, com integrações automáticas para envio de prêmios com comandos no Discord.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> Node.js, Discord.js, API do Roblox</p>
-        </div>
-      </div>
-
-      <!-- NUI para FiveM -->
-      <div class="exemplo">
-        <h4>NUI para FiveM - Interface de Torneio de RP</h4>
-        <p>Interface desenvolvida para torneios de RP em servidores FiveM, permitindo gerenciar o time, visualização de placares e resultados, além de interações dinâmicas entre os participantes.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> React, Vite, HTML, CSS, JavaScript, Node.js</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>NUI para FiveM - Sistema de Cadastro para RP</h4>
-        <p>Interface NUI personalizada para cadastrar e registrar jogadores em servidores de RP de FiveM, com integração com bancos de dados e visualização interativa de status do jogador.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> React, Vite, HTML, CSS, JavaScript, Node.js</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>NUI para FiveM - Gestão de Inventário em RP</h4>
-        <p>Interface para a gestão de inventários de jogadores em servidores de RP de FiveM, permitindo aos usuários gerenciar seus itens de forma visual e interativa, com suporte a múltiplas categorias.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> React, Vite, HTML, CSS, JavaScript</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>NUI para FiveM - Painel de Controle de Administradores</h4>
-        <p>Interface de painel para administradores em servidores de RP de FiveM, com controle sobre banimentos, kick e visualização de estatísticas do servidor, além de envio de relatórios em tempo real.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> React, Vite, HTML, CSS, JavaScript, Node.js</p>
-        </div>
-      </div>
-
-      <div class="exemplo">
-        <h4>NUI para FiveM - Interface de Eventos de RP</h4>
-        <p>Interface de gerenciamento de eventos dentro de servidores de RP de FiveM, facilitando a organização e controle de eventos como corridas, missões e outros tipos de atividades de roleplay.</p>
-        <div class="linguagens">
-          <p><strong>Linguagens e Tecnologias:</strong> React, Vite, HTML, CSS, JavaScript, Node.js</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <a href="https://wa.me/5565996283733" target="_blank" class="whatsapp-button">
-    Fale comigo no WhatsApp
-  </a>
+    <footer>
+        <p>© 2025 Lucas Dev. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
